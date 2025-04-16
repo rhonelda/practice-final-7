@@ -86,6 +86,5 @@ function Question6(){
             <p>Line (2, 5) to (6, 5): slope = {calculate_slope(2, 5, 6, 5)}</p>
         </section>
 }
-
 export {Question1,Question2,Question3,Question4,Question5,Question6}
 
