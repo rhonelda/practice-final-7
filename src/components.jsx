@@ -1,4 +1,4 @@
-import {hello,square_feet_to_acre,minutes_to_mow,getAirQualityDescription} from './functions.js';
+import {hello,square_feet_to_acre,minutes_to_mow,getAirQualityDescription,yee_ha} from './functions.js';
 
 function Question1(){
     return <section>
@@ -58,5 +58,34 @@ return <section>
 
 function Question5(){
     return <section>
-export {Question1,Question2,Question3,Question4}
+5.yee_ha takes an integer and returns:
+            <h1>results</h1>
+            <ul>
+            <li>"Yee" if number is divisible by 3</li>
+            <li>"Ha" if number is divisible by 7</li>
+            <li>"Yee Ha" if divisible by both 3 and 7</li>
+            <li>"Nada" if none of the above</li>
+            </ul>
+            <p>Make a test for each branch.</p>
+
+            <h2>Results</h2>
+            <p>yee_ha(21) = {yee_ha(21)} {/* Yee Ha */}</p>
+            <p>yee_ha(9) = {yee_ha(9)} {/* Yee */}</p>
+            <p>yee_ha(14) = {yee_ha(14)} {/* Ha */}</p>
+            <p>yee_ha(8) = {yee_ha(8)} {/* Nada */}</p>
+        </section>
+}
+
+function Question6(){
+            return <section>
+ 6. Calculate the slope of a line  Slope is calculated as rise / run, where rise is distance between y coordinates, and run is distance between x coordinates.Test at least 3 lines.
+            <h2>results</h2>
+            <p>Slope = (y2 - y1) / (x2 - x1)</p>
+            <p>Line (1, 2) to (3, 6): slope = {calculate_slope(1, 2, 3, 6)}</p>
+            <p>Line (0, 0) to (4, 8): slope = {calculate_slope(0, 0, 4, 8)}</p>
+            <p>Line (2, 5) to (6, 5): slope = {calculate_slope(2, 5, 6, 5)}</p>
+        </section>
+}
+
+export {Question1,Question2,Question3,Question4,Question5,Question6}
 
