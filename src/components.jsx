@@ -1,4 +1,4 @@
-import {hello,square_feet_to_acre,minutes_to_mow} from './functions.js';
+import {hello,square_feet_to_acre,minutes_to_mow,getAirQualityDescription} from './functions.js';
 
 function Question1(){
     return <section>
@@ -30,7 +30,33 @@ return <section>
 <p>minutes_to_mow(200,200,200) == {minutes_to_mow(200,200,200)}</p>
 <p>minutes_to_mow(300,300,300) == {minutes_to_mow(300,300,300)}</p>
 </section>
-
 }
-export {Question1,Question2,Question3}
+
+function Question4(){
+return <section>
+4.Compute the air quality given an air quality index:
+        <h1>results</h1>
+        <ul>
+        <li>"Good" - 0 to 50 AQI</li>
+        <li>"Moderate" - 51 - 100 AQI</li>
+        <li>"Unhealthy for Sensitive Groups" - 101 - 150 AQI</li>
+        <li>"Unhealthy" - 151 - 200 AQI</li>
+        <li>"Very Unhealthy" - 201 - 300 AQI</li>
+        <li>"Hazardous" - 300+ AQI</li>
+        </ul>
+        <p>Make a test for each type of air quality.</p>
+
+        <h2>Results</h2>
+        <p>getAirQualityDescription(25) = {getAirQualityDescription(25)}</p>
+        <p>getAirQualityDescription(75) = {getAirQualityDescription(75)}</p>
+        <p>getAirQualityDescription(125) = {getAirQualityDescription(125)}</p>
+        <p>getAirQualityDescription(175) = {getAirQualityDescription(175)}</p>
+        <p>getAirQualityDescription(250) = {getAirQualityDescription(250)}</p>
+        <p>getAirQualityDescription(350) = {getAirQualityDescription(350)}</p>
+        </section>
+}
+
+function Question5(){
+    return <section>
+export {Question1,Question2,Question3,Question4}
 
