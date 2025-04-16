@@ -1,4 +1,4 @@
-import {hello,square_feet_to_acre} from './functions.js';
+import {hello,square_feet_to_acre,minutes_to_mow} from './functions.js';
 
 function Question1(){
     return <section>
@@ -21,4 +21,16 @@ function Question2(){
 <p>square feet to acre(150 000) == {square_feet_to_acre(150000)}</p> 
 </section>;
 }
-export {Question1,Question2}
+
+function Question3(){
+return <section>
+3. Given the&nbsp; width of a lawn in metres, length of a lawn in metres and the square metres cut per minute calculate the minutes it would take to mow that lawn. Test at least 3 lawn sizes
+<h2>results</h2>
+<p>minutes_to_mow(100,100,10) == {minutes_to_mow(100,100,10)}</p>
+<p>minutes_to_mow(200,200,200) == {minutes_to_mow(200,200,200)}</p>
+<p>minutes_to_mow(300,300,300) == {minutes_to_mow(300,300,300)}</p>
+</section>
+
+}
+export {Question1,Question2,Question3}
+
